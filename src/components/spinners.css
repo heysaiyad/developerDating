@@ -1,0 +1,28 @@
+.spi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* This makes the background semi-transparent */
+    z-index: 1; /* This brings the spinner to the front */
+  }
+  
+  .Spinner {
+    width: 11.2px;
+    height: 11.2px;
+    animation: spinner-z355kx 1s infinite linear;
+    border-radius: 11.2px;
+    box-shadow: 28px 0px 0 0 #f307d3, 17.4px 21.8px 0 0 #ea0cd4, -6.2px 27.2px 0 0 #df0af7, -25.2px 12px 0 0 #d208ff, -25.2px -12px 0 0 #ef07ad, -6.2px -27.2px 0 0 #e208c5, 17.4px -21.8px 0 0 #ea05c8;
+  }
+  
+  @keyframes spinner-z355kx {
+    to {
+       transform: rotate(360deg);
+    }
+  }
