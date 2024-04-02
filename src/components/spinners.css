@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150%;
+    height: 200%;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.5); /* This makes the background semi-transparent */
     z-index: 1; /* This brings the spinner to the front */
