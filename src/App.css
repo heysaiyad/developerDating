@@ -91,3 +91,24 @@ video {
   width: 500px; /* Adjust as needed */
 }
 
+/* Existing CSS */
+
+/* CSS for mobile devices */
+@media (max-width: 768px) {
+  .App {
+    width: 90%; /* Increase the width for mobile devices */
+    padding: 20px; /* Decrease the padding for mobile devices */
+  }
+
+  .input-field {
+    width: 100%; /* Make the input fields take up the full width on mobile devices */
+  }
+
+  .match-button {
+    width: 100%; /* Make the button take up the full width on mobile devices */
+  }
+
+  video {
+    width: 100%; /* Make the video responsive by setting the width to 100% */
+  }
+}

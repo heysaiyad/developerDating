@@ -1,16 +1,31 @@
 .Apps {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
-    width: 50%;
-    background-color: #cc6494;
-    border-radius: 10px;
-    padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  height: 100%;
+  background-color: #cc6494;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+video {
+  border-radius: 20px;
+  width: 100%; /* Make the video responsive by setting the width to 100% */
+}
+
+/* CSS for mobile devices */
+@media (max-width: 768px) {
+  .Apps {
+    width: 110%; /* Increase the width for mobile devices */
+    height: 100%;
+    /* padding: 20px; Decrease the padding for mobile devices */
   }
-  
+
   video {
-    border-radius: 20px;
+     /* Make the video height auto to maintain aspect ratio */
   }
+}
